@@ -80,6 +80,7 @@ body {
 .site-image {
     width: 540px;
     height: 446px;
+    background-color: var(--Purple);
 }
 
 .image {
