@@ -1,0 +1,121 @@
+@import url(./fonts.css);
+:root {
+    --DarkBlue: #0A0C1C;
+    --Blue: #1B1937;
+    --White: #FFF;
+    --Purple: #AB5CDB;
+    --Inter: "Inter";
+    --LexendDeca: "LexendDeca";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--DarkBlue);
+}
+
+.card {
+    max-width: 1110px;
+    width: 100%;
+    height: 446px;
+    border-radius: 8px;
+    background: var(--Blue);
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    padding-top: 71px;
+    padding-bottom: 59px;
+    padding-left: 72px;
+}
+
+.site-title {
+    max-width: 403px;
+    width: 100%;
+    color: var(--White);
+    font-family: var(--Inter);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 25px;
+}
+
+.site-span {
+    color: var(--Purple);
+    font-family: var(--Inter);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.site-text {
+    max-width: 374px;
+    width: 100%;
+    color: #FFF;
+    font-family: var(--Inter);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    opacity: 0.75;
+    margin-bottom: 72px;
+}
+
+.card-2 {
+    display: flex;
+    column-gap: 63px;
+}
+
+.site-image {
+    width: 540px;
+    height: 446px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+    opacity: 0.7511;
+    background-color: var(--Purple);
+}
+
+.card-info {
+    display: inline-flex;
+    padding-right: 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+}
+
+.card-number {
+    color: #FFF;
+    font-family: var(--Inter);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.card-text {
+    color: #FFF;
+    font-family: "LexendDeca";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
