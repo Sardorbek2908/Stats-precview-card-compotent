@@ -81,6 +81,7 @@ body {
     width: 540px;
     height: 446px;
     background-color: var(--Purple);
+    border-radius: 0 8px 8px 0;
 }
 
 .image {
